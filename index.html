@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="clock_fav.png"
+    />
+  </head>
+  <body>
+    <h1 class="header">Timer App</h1>
+    <div class="container">
+      <div class="headings">
+        <h1 class="hour-tick">00</h1>
+        <h2 class="colon">:</h2>
+        <h1 class="minute-tick">00</h1>
+        <h2 class="colon">:</h2>
+        <h1 class="second-tick">00</h1>
+      </div>
+
+      <div class="inputs">
+      <input type="number" name="hours" id="hours" placeholder="00" value="0"/>
+      <h2 class="colon">:</h2>
+      <input type="number" name="minutes" id="minutes" placeholder="00" value="0"/>
+      <h2 class="colon">:</h2>
+      <input type="number" name="seconds" id="seconds" placeholder="00" value="0"/>
+      </div>
+      <br>
+      <div class="controls">
+        <button class="set">Set</button>
+        <button class="start">Start</button>
+        <button class="reset">Reset</button>
+      </div>
+
+    </div>
+    <br>
+    <div class="instructions">
+      <h4 class="inst">Instructions:</h4>
+      <h4 class="inst">* Enter the hours, minutes or seconds in the placeholder based on your requirements</h4>
+      <h4 class="inst">* After that click on the 'Set' button and after that click on 'Start' button</h4>
+      <h4 class="inst">* You can press 'Reset' button to reset the timer</h4>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

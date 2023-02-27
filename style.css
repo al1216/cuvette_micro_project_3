@@ -1,0 +1,53 @@
+*{
+    align-items: center;
+
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.instructions{
+    margin-left: 430px;
+}
+
+
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: 90px;
+    border-radius: 5%;
+}
+
+.headings, .inputs, .controls{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.hour-tick, .minute-tick, .second-tick{
+    padding: 10px;
+}
+
+input{
+    align-items: center;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.set, .start, .reset{
+    box-sizing: content-box;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8%;
+    background-color: #8870FF;
+    color: white;
+    border-color: black;
+}
